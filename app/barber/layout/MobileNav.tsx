@@ -16,12 +16,12 @@ export default function MobileNav() {
             animate={isOpen ? "open" : "closed"}
             variants={{
                 closed: {
-                    borderRadius: "50px",
+                    borderRadius: "1rem",
                     top: "10px",
                     left: "10px",
                     right: "10px",
                     width: "calc(100% - 20px)",
-                    height: "70px",
+                    height: "60px",
                     transition: { type: "spring", stiffness: 300, damping: 30 }
                 },
                 open: {
@@ -34,16 +34,15 @@ export default function MobileNav() {
                     transition: { type: "spring", stiffness: 300, damping: 30 }
                 }
             }}
-            className="fixed z-50 bg-white text-[#032512] overflow-hidden shadow-lg border border-gray-100"
-        >
-            <div className="w-full h-[70px] flex justify-between items-center px-6">
+            className="xl:hidden fixed z-50 bg-white text-[#032512] overflow-hidden shadow-lg border border-gray-100">
+            <div className="w-full h-[60px] flex justify-between items-center px-3">
                 <div className='flex items-center gap-2'>
                     <Image src={logo} alt='' className="w-8" />
                     <h1 className={` ${instrumentSerif.className} italic text-[1.3rem] text-[#032512]`}>salon</h1>
                 </div>
 
                 <div
-                    className="flex flex-col justify-center items-center gap-1.5 w-10 h-10 cursor-pointer bg-[#ebeeed] border border-[#d9dedc] p-2 rounded-full"
+                    className="flex flex-col justify-center items-center gap-1.5 w-10 h-10 cursor-pointer bg-[#ebeeed] border border-[#d9dedc] p-2 rounded-[0.5rem]"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     <motion.span

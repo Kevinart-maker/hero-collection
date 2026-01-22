@@ -30,7 +30,7 @@ export default function Images() {
             />
             <div className='absolute inset-0 mask-[linear-gradient(to_bottom,transparent,#041507_100%)]' />
             <motion.div 
-                className='w-full md:w-[70%] h-[80vh] z-10 rounded-2xl outline outline-[#0c5431] border-3 border-[#041507] bg-white absolute -bottom-10 left-1/2 overflow-hidden' 
+                className='w-[90%]  xl:h-[80vh] z-10 rounded-2xl outline outline-[#0c5431] border-3 border-[#041507] bg-white absolute bottom-10 md:-bottom-10 left-1/2 overflow-hidden' 
                 style={{ y: divY, x: "-50%" }}
             >
                 <Image src={clipper} width={1000} height={1000} alt="barber-website" className='w-full h-auto' />
