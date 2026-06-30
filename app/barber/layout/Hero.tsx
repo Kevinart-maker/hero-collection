@@ -3,6 +3,7 @@
 import { Instrument_Serif } from 'next/font/google'
 import Typewriter from 'typewriter-effect'
 import Images from './Images'
+import { motion } from 'motion/react'
 
 const instrumentSerif = Instrument_Serif({ subsets: ['latin'], weight: '400' })
 
@@ -29,7 +30,7 @@ export default function Hero() {
                 </p>
 
                 <div className='flex flex-col gap-4 items-center'>
-                    <button className='bg-white text-[#032512] px-7 py-1.5 rounded-xl cursor-pointer'>Book Now</button>
+                    <motion.button whileTap={{ scale: 0.95 }} transition={{ ease: 'easeOut', duration: 0.2 }} className='bg-white text-[#032512] px-7 py-1.5 rounded-xl cursor-pointer'>Book Now</motion.button>
                     <span className='text-[0.6rem] opacity-50'>Book an appointment with us.</span>
                 </div>
 

@@ -18,8 +18,8 @@ export default function Location() {
                 </div>
 
                 <div className='flex flex-col gap-2 opacity-65'>
-                    <p>128  Winston st, Upper West Side, Manhattan, New York, NY 05120</p>
-                    <p>+1 234 567 890</p>
+                    <p>38 Hightown Road, Luton LU2 0DE</p>
+                    <p>+447877389105</p>
 
                     <p>
                         Monday - Saturday: 9am - 8pm <br />

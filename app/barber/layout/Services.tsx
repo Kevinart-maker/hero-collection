@@ -80,7 +80,7 @@ export default function Services() {
                 variants={fadeIn}
                 className='flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-20'
             >
-                <div className='overflow-hidden flex items-center justify-center w-full lg:w-auto max-w-100 h-[40vh] lg:h-[60vh] rounded-2xl'>
+                <div className='overflow-hidden flex items-center justify-center w-full h-[40vh] lg:h-[60vh] rounded-2xl'>
                     <Image src={barb} alt="" className='w-full h-full object-cover' />
                 </div>
                 <div className='flex flex-col gap-2 w-full'>

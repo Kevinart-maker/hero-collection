@@ -66,7 +66,7 @@ export default function page() {
                 <div className='overflow-hidden flex items-center justify-center w-full lg:w-auto lg:min-w-100 h-[40vh] lg:h-[60vh] rounded-2xl relative'>
                     <Image src={barb} alt="" className='w-full h-full object-cover' />
                     <div className="absolute left-3 rounded-xl bottom-3 bg-white text-black p-2 flex flex-col gap-0.5 text-xs">
-                        <span className="italic font-semibold">Richard o.</span>
+                        <span className="italic font-semibold">Idris</span>
                         <span>Master Barber</span>
                     </div>
                 </div>

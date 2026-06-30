@@ -14,7 +14,7 @@ export default function Footer() {
                     <Image src={logo} alt='' className="w-14" />
                     <h1 className={` ${instrumentSerif.className} italic text-[2rem] `}>salon</h1>
                 </div>
-                <p className='opacity-65'>128  Winston st, Upper West Side, Manhattan, New York, NY 05120</p>
+                <p className='opacity-65'>38 Hightown Road, Luton LU2 0DE</p>
                 <div className='flex gap-2 text-xl opacity-65'>
                     <FaInstagram/>
                     <FaWhatsapp/>
