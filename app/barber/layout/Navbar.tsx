@@ -43,17 +43,17 @@ export default function Navbar() {
             </div>
             
             <ul className='flex gap-5 items-center'>
-                <li className='cursor-pointer'>Services</li>
-                <li className='cursor-pointer'>Our location</li>
-                <li className='cursor-pointer'>Contact us</li>
+                <a href='#services' className='cursor-pointer'>Services</a>
+                <a href='#location' className='cursor-pointer'>Our location</a>
+                <a href='#contact' className='cursor-pointer'>Contact us</a>
             </ul>
 
-            <motion.div
+            <motion.a href="tel:+447877389105"
                 style={{ backgroundColor: buttonBg, color: buttonText }}
                 className='px-6 py-1.5 rounded-xl cursor-pointer'
             >
                 Book Now
-            </motion.div>
+            </motion.a>
         </motion.div>
     )
 }

@@ -10,7 +10,7 @@ import Location from "./layout/Location"
 import { useState } from 'react'
 import { motion, AnimatePresence, Variants } from 'framer-motion'
 import Image from 'next/image'
-import barb from './assets/prof.jpg'
+import barb from './assets/prof3.png'
 
 const instrumentSans = Instrument_Sans({ subsets: ['latin'] })
 const instrumentSerif = Instrument_Serif({ subsets: ['latin'], weight: '400' })

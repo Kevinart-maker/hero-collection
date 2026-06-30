@@ -6,7 +6,7 @@ const instrumentSerif = Instrument_Serif({ subsets: ['latin'], weight: '400' })
 
 export default function Location() {
     return (
-        <div className='flex flex-col-reverse lg:flex-row gap-20 items-center lg:items-stretch justify-center px-4 md:px-10 lg:px-40 mt-20 lg:mt-50'>
+        <div className='flex flex-col-reverse lg:flex-row gap-20 items-center lg:items-stretch justify-center px-4 md:px-10 lg:px-40 mt-20 lg:mt-50' id='location'>
             <div className='flex flex-col gap-10 justify-between h-auto lg:h-full py-2'>
                 <div className='flex flex-col gap-2 w-full'>
                     <span className='flex items-center gap-2 font-semibold text-xs opacity-65'>

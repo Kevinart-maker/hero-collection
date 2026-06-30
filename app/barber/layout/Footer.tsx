@@ -7,7 +7,7 @@ const instrumentSerif = Instrument_Serif({ subsets: ['latin'], weight: '400' })
 
 export default function Footer() {
   return (
-    <div className='border-t border-white/10 py-20 px-4 md:px-10 lg:px-40  text-sm flex flex-col justify-between'>
+    <div className='border-t border-white/10 py-20 px-4 md:px-10 lg:px-40  text-sm flex flex-col justify-between' id='contact'>
         <div className='flex flex-col lg:flex-row gap-10 justify-between'>
             <div className='flex flex-col gap-4'>
                <div className='flex items-center gap-2'>
@@ -17,7 +17,7 @@ export default function Footer() {
                 <p className='opacity-65'>38 Hightown Road, Luton LU2 0DE</p>
                 <div className='flex gap-2 text-xl opacity-65'>
                     <FaInstagram/>
-                    <FaWhatsapp/>
+                    <a href="https://wa.me/447877389105" target="_blank" rel="noopener noreferrer"><FaWhatsapp/></a>
                 </div>
             </div>
     
@@ -32,7 +32,7 @@ export default function Footer() {
                 <h1 className='font-semibold'>Operational</h1>
                 <p className='opacity-65'>Monday - Saturday: 9am - 8pm</p>
                 <p className='opacity-65'>Sunday: 12pm - 8pm</p>
-                <button className='bg-white text-[#032512] px-7 py-1.5 rounded-xl cursor-pointer w-fit xl:w-full'>Book Now</button>
+                <a href="tel:+447877389105" className='bg-white text-[#032512] text-center px-7 py-1.5 rounded-xl cursor-pointer w-fit xl:w-full'>Book Now</a>
             </div>
         </div>
 

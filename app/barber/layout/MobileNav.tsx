@@ -66,13 +66,13 @@ export default function MobileNav() {
                         className="w-full flex flex-col gap-6 px-6 pb-6 pt-2"
                     >
                         <ul className="w-full flex flex-col gap-4 text-lg font-medium">
-                            <li className="cursor-pointer border-b border-gray-100 pb-2">Services</li>
-                            <li className="cursor-pointer border-b border-gray-100 pb-2">Our location</li>
-                            <li className="cursor-pointer border-b border-gray-100 pb-2">Contact us</li>
+                            <a href="#services" className="cursor-pointer border-b border-gray-100 pb-2">Services</a>
+                            <a href="#location" className="cursor-pointer border-b border-gray-100 pb-2">Our location</a>
+                            <a href="#contact" className="cursor-pointer border-b border-gray-100 pb-2">Contact us</a>
                         </ul>
-                        <button className="w-full py-3 rounded-xl bg-[#032512] text-white font-medium text-sm cursor-pointer hover:opacity-90 transition-opacity">
+                        <a href="tel:+447877389105" className="w-full py-3 rounded-xl bg-[#032512] text-white font-medium text-sm cursor-pointer hover:opacity-90 transition-opacity">
                             Book Now
-                        </button>
+                        </a>
                     </motion.div>
                 )}
             </AnimatePresence>

@@ -72,7 +72,7 @@ export default function Services() {
     }
 
     return (
-        <div className='flex flex-col gap-14 items-center justify-center px-4 md:px-10 lg:px-40 mt-20 lg:mt-50'>
+        <div className='flex flex-col gap-14 items-center justify-center px-4 md:px-10 lg:px-40 mt-20 lg:mt-50' id='services'>
             <motion.header
                 initial="hidden"
                 whileInView="visible"
