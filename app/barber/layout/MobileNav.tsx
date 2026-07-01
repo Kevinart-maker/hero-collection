@@ -70,7 +70,7 @@ export default function MobileNav() {
                             <a href="#location" className="cursor-pointer border-b border-gray-100 pb-2">Our location</a>
                             <a href="#contact" className="cursor-pointer border-b border-gray-100 pb-2">Contact us</a>
                         </ul>
-                        <a href="tel:+447877389105" className="w-full py-3 rounded-xl bg-[#032512] text-white font-medium text-sm cursor-pointer hover:opacity-90 transition-opacity">
+                        <a href="tel:+447877389105" className="w-full py-3 rounded-xl bg-[#032512] text-center text-white font-medium text-sm cursor-pointer hover:opacity-90 transition-opacity">
                             Book Now
                         </a>
                     </motion.div>

@@ -17,12 +17,13 @@ export default function Location() {
                     <p className='opacity-65 text-sm lg:text-base'>Our barbershop is the territory created purely for men who appreciate premium quality, time and flawless look. We’ll help you to look stylish and confident in the most discreet way.</p>
                 </div>
 
-                <div className='flex flex-col gap-2 opacity-65'>
+                <div className='flex flex-col gap-6 opacity-65'>
                     <p>38 Hightown Road, Luton LU2 0DE</p>
                     <p>+447877389105</p>
 
                     <p>
-                        Monday - Saturday: 9am - 8pm <br />
+                        Monday - Thursday : 10am - 8pm <br />
+                        Friday - Saturday : 9:30am - 9pm <br />
                         Sunday: 12pm - 8pm
                     </p>
                 </div>

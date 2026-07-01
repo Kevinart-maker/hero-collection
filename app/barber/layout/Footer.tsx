@@ -30,7 +30,8 @@ export default function Footer() {
 
             <div className='flex flex-col gap-4'>
                 <h1 className='font-semibold'>Operational</h1>
-                <p className='opacity-65'>Monday - Saturday: 9am - 8pm</p>
+                <p className='opacity-65'>Monday - Thursday: 10am - 8pm</p>
+                <p className='opacity-65'>Friday - Saturday: 9:30am - 9pm</p>
                 <p className='opacity-65'>Sunday: 12pm - 8pm</p>
                 <a href="tel:+447877389105" className='bg-white text-[#032512] text-center px-7 py-1.5 rounded-xl cursor-pointer w-fit xl:w-full'>Book Now</a>
             </div>
